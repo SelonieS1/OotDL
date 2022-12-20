@@ -1,0 +1,52 @@
+{   
+   "name": "odyssey-dragonlords",
+   "title": "Odyssey Aides de jeu",
+   "description": "Elements pour jouers à Odyssey of the DragonLords",   
+   "author": "Kyllian",
+   "systems": ["dnd5e"],
+   "version": "1.0.1",
+   "minimumCoreVersion": "0.6",
+   "compatibleCoreVersion":"0.6",
+   "packs": [
+    {
+      "name": "Objets",
+      "label": "Objets",
+      "path": "packs/items.db",
+      "entity": "Item",
+      "module": "odyssey-dragonlords"
+    },
+    {
+      "name": "Notes Odyssey",
+      "label": "Notes Odyssey",
+      "path": "packs/journal.db",
+      "entity": "JournalEntry",
+      "module": "odyssey-dragonlords"
+    },
+    {
+      "name": "PJ",
+      "label": "PJ",
+      "path": "packs/PJ.db",
+      "entity": "Actor",
+      "module": "odyssey-dragonlords"
+    },
+    {
+      "name": "PNJ-Odyssey",
+      "label": "PNJ Odyssey",
+      "path": "packs/PNJ.db",
+      "entity": "Actor",
+      "module": "odyssey-dragonlords"
+    },
+    {
+      "name": "Scene Odyssey",
+      "label": "Scenes Odyssey",
+      "path": "packs/scenes.db",
+      "entity": "Scene",
+      "module": "wfrp4e-ss-fr"
+    }
+  ],
+  "languages": ["fr"],
+  "minimumCoreVersion": "0.6",
+  "manifest": "https://raw.githubusercontent.com/Kyllian1977/odyssey-dragonlords/master/module.son",
+  "download": "https://github.com/Kyllian1977/odyssey-dragonlords/archive/master.zip",
+  "url": "https://github.com/Kyllian1977/odyssey-dragonlords"
+ }
